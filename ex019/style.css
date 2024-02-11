@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é classe = em CSS é .
+*/
+
+/* No mesmo documento é possivel tem um elemento com id e classe ao mesmo tempo, porém o id sobrepõe*/
+
+/* Tem como um único elemento tem várias classes, basta apenas colocar um espaço entre elas*/
+
+/* Também existe uma questão de hierquia, o que vai ficar valendo é o ultimo a ser ligado, o class é ligado antes e o id é ligado depois, então o que sobrepõe são as configurações do ID porém ele sempre vai herdar tudo que veio da camada acima*/
+
+body {
+    background-color: rgb(202, 235, 202);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: rgb(48, 88, 48);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(202, 235, 202);
+    color: white;
+
+}
+
+h2 {
+    color: rgb(54, 114, 54);
+}
+
+.basico {
+    color: rgb(120, 120, 226);
+    font-weight: bolder;
+}
+.intermediario {
+    color: rgb(168, 168, 72);
+}
+
+.avancado {
+    color: rgb(233, 119, 119);
+}
+
+.destaque {
+    background-color: rgb(247, 247, 105);
+}

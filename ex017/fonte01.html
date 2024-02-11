@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            Recomendado: px
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            Recomendado: em
+
+            16px é equivalente a 1 em
+            */
+            font-size: 1em;
+            /*Lighter normal bold bolder*/
+
+
+            /*weight = peso, width = largura, height = altura*/
+        }
+        h1 {
+            
+            /*Shorthand = font*/
+            /*Ordem: Font-style -> font-weight -> font-size -> font-family
+
+            Precisa seguir essa ordem, pois ela é muito importante para o ShortHand
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            font: bold 2em Arial;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ab recusandae doloremque atque nam dolorem rem sint. Voluptatibus, impedit unde voluptates commodi sed atque dignissimos, est exercitationem modi recusandae aperiam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, adipisci iusto et eligendi odio ipsum ab voluptatibus numquam obcaecati deleniti similique nobis soluta impedit assumenda pariatur culpa minus corporis recusandae.</p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facilis, qui odit quod ipsum blanditiis porro at quas unde, nostrum dolore explicabo, dignissimos magnam cupiditate suscipit? Itaque nesciunt ad inventore.</p>
+</body>
+</html>
